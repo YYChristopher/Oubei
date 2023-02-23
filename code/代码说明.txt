@@ -1,0 +1,10 @@
+filter-train-test与filter-train-test-onTrain为分别为训练集和测试集推荐商家的代码
+mat_cf_rec为采用协同过滤算法进行推荐（文章中未出现该部分内容）
+mat_matName_rec 为历史报价单行数据中从未出现过的（包括没见过的）物料向量化进行推荐
+mat_matrix为生成基于物料相似度的供应商-物料的二维供应矩阵
+result_display为实例分析部分“推进油缸保护套”“太阳能电池”“石墨烯”的相似物料、初筛供应商ID以及对应供应物料与目标物料之间相似度
+result_display_filter为实例分析部分“太阳能电池”“石墨烯”（历史数据中未出现物料）相似物料、初筛供应商ID以及对应供应物料与目标物料之间相似度
+RealTrain为模型细筛排序部分训练模型的代码（包含网格搜索）
+ResultPlot为训练集上画学习曲线代码
+ResultPlot2为测试集上画学习曲线代码
+preprocess.tfl为预处理文件 我们的数据预处理采用的是Tableau Prep软件操作，具体预处理参考该文件即可
